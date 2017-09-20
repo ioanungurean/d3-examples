@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  background: linear-gradient(180deg, #274B67, #243956);
+}
+
+.container {
+	display: flex;
+  margin: auto;
+  width: 800px;
+}
+
+.interface {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255, 0.7);
+}
+
+.package {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255, 0.7);
+}

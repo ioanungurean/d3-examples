@@ -1,0 +1,52 @@
+@import 'sizes';
+@import 'colors';
+@import 'spacing';
+
+@import 'shared';
+
+// These can be extended and applied to any custom element
+// Use this and only this so as to not step out of the specifications
+
+// @Typography
+$typo-title: unique-id();
+@at-root %#{$typo-title} {
+  font-size:    map-get($sizes, font-title);
+  font-weight:  map-get($sizes, font-weight-bold);
+}
+
+$typo-primary: unique-id();
+@at-root %#{$typo-primary} {
+  font-size:    map-get($sizes, font-primary);
+  font-weight:  map-get($sizes, font-weight-regular);
+}
+// End of @Typography
+
+// @Buttons
+$button-primary: unique-id();
+@at-root %#{$button-primary} {
+  opacity: .7;
+  // TODO:
+
+  &:disabled {
+    opacity: .3;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+$button-secondary: unique-id();
+@at-root %#{$button-secondary} {
+  opacity: .7;
+  // TODO:
+
+  &:disabled {
+    opacity: .3;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+// End of @Buttons

@@ -1,0 +1,11 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background: linear-gradient(180deg, #274B67, #243956);
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
