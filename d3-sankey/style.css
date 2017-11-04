@@ -5,15 +5,7 @@ body {
   background: linear-gradient(180deg, #274B67, #243956);
 }
 
-path {
-	fill: #507092
-}
-
 svg {
   display: block;
   margin: auto;
-}
-
-textPath {
-  fill: rgba(255, 255, 255, 0.5);
 }
